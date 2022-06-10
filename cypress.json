@@ -1,1 +1,5 @@
-{}
+{
+    "baseUrl": "https://displate.com",
+    "blockHosts":["quitsnap-blue.com", "measurement.displate.com","bam-cell.nr-data.net","www.google-analytics.com",
+                "stream-859.optimove.net","realtime-859.optimove.net","sdkuaservice.optimove.net"]
+}
