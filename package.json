@@ -17,5 +17,8 @@
   "homepage": "https://github.com/mwyrodek/cypress-workshop-10-VI-2022#readme",
   "dependencies": {
     "cypress": "^9.7.0"
+  },
+  "devDependencies": {
+    "prettier": "2.6.2"
   }
 }
