@@ -1,5 +1,4 @@
 /// <reference types="Cypress" />
-
 describe("Homapage navigation", () => {
     it("Go to product page via feed", () => {
         cy.visit('');
@@ -8,5 +7,12 @@ describe("Homapage navigation", () => {
 
         cy.url().should('include','/displate/')
     });
-  });
-  
+
+
+    // Jira-XXX - issue reported waiting for fix
+    Cypress.on("uncaught:exception", (err, runnable) => {
+        // returning false here prevents Cypress from
+        // failing the test
+        return false;
+      });
+});

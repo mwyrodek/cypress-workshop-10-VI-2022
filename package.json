@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "description": "Workshop on cypress at 10 June",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx cypress open --config-file ./cypress/config/prod.json",
+    "cy:open:test": "npx cypress open --config-file ./cypress/config/test.json",
+    "cy:run:prod": "npx cypress run --config-file ./cypress/config/prod.json"
   },
   "repository": {
     "type": "git",
