@@ -1,5 +1,5 @@
 /// <reference types="Cypress" />
-describe("Homapage navigation", () => {
+describe("Homapage navigation", { tags: ["@Homepage", "@Critcical"]}, () => {
     it("Go to product page via feed", () => {
         cy.visit('');
         

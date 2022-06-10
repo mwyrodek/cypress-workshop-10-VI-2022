@@ -1,6 +1,6 @@
 /// <reference types="Cypress" />
 
-describe("Check Cart", () => {
+describe("Check Cart", { tags: ["@Cart", "@Critcical"]}, () => {
     before(()=>{
         cy.visit('');
     })

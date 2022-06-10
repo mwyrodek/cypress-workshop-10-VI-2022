@@ -1,4 +1,4 @@
-describe("Add to Cart Test", () => {
+describe("Add to Cart Test", { tags: ["@ProductPage", "@Critcical", "@Cart"]}, () => {
 
     // clean state
     beforeEach(()=>{
@@ -16,9 +16,9 @@ describe("Add to Cart Test", () => {
 
         cy.contains('Add to cart').click()
 
-        cy.contains('Cart').should('contain', '1')
+        cy.contains('Cart', ).should('contain', '1');
 
-        cy.wait('@CartState').its('response.body')
+        cy.wait('@CartState', {timeout: Cypress.env("shortTimeout")}).its('response.body')
         .then((body)=> {
             expect(body[0].title).to.eq("dragon ball goku vegeta")
         });

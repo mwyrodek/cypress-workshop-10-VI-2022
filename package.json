@@ -21,6 +21,7 @@
     "cypress": "^9.7.0"
   },
   "devDependencies": {
+    "cypress-grep": "^2.14.0",
     "prettier": "2.6.2"
   }
 }

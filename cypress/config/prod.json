@@ -1,11 +1,19 @@
 {
     "baseUrl": "https://displate.com",
+    "env":{
+        "shortTimeout": 2000,
+        "mediumTimeout": 10000,
+        "longTimeout": 30000,
+        "grepOmitFiltered": true,
+        "grepFilterSpecs": true
+    },
     "pageLoadTimeout": 30000,
     "blockHosts":["quitsnap-blue.com", "measurement.displate.com","bam-cell.nr-data.net","www.google-analytics.com",
                 "stream-859.optimove.net","realtime-859.optimove.net","sdkuaservice.optimove.net"],
     "retries":{
         "runMode": 2,
-        "openMode": 1
-    }
-
+        "openMode": 0
+    },
+    "numTestsKeptInMemory": 50,
+    "video": false
 }
