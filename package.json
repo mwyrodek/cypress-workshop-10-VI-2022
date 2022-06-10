@@ -1,0 +1,21 @@
+{
+  "name": "cypress-workshop",
+  "version": "0.0.1",
+  "description": "Workshop on cypress at 10 June",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mwyrodek/cypress-workshop-10-VI-2022.git"
+  },
+  "author": "Maciej Wyrodek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mwyrodek/cypress-workshop-10-VI-2022/issues"
+  },
+  "homepage": "https://github.com/mwyrodek/cypress-workshop-10-VI-2022#readme",
+  "dependencies": {
+    "cypress": "^9.7.0"
+  }
+}
