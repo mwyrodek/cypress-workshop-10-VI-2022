@@ -11,7 +11,7 @@ describe("Add to Cart Test", () => {
        })
     })
 
-    it("Add simple product from Product Page", () => {
+    it("Add simple product from Product Page",() => {
         cy.intercept('/lapi/users/cart/items').as('CartState')
 
         cy.contains('Add to cart').click()
